@@ -1,14 +1,14 @@
 import React from 'react'
-import { Wrapper, WrapperFullName, WrapperTitle } from './styled';
+import { Wrapper, WrapperFullName, WrapperLink, WrapperTitle } from './styled';
 
 const RepositoryItem = ({ name, LinkToRepo, fullName }) => {
     return (
         <Wrapper>
             <WrapperTitle>{name}</WrapperTitle>
-            <WrapperFullName>full name:</WrapperFullName>
-            <a href={LinkToRepo} target="_blank">
+            <WrapperFullName>full name: </WrapperFullName>
+            <WrapperLink href={LinkToRepo} target="_blank">
                 {fullName}
-            </a>
+            </WrapperLink>
         </Wrapper>
     );
 }

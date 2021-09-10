@@ -1,11 +1,12 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-    border-radius: 8px;
-    border: 1px solid #ccc;
+    background-color: #ccc;
+    border-radius: 15px;
+    border: 2px solid #ccc;
     margin: 16px 16px;
-    width: 400px;
-    height: 200px;
+    width: 350px;
+    height: 150px;
     padding: 8px ;
     align-content: center;
 `;
@@ -23,7 +24,7 @@ export const WrapperFullName = styled.h2`
     color: #2d3748;
 `;
 
-export const WrapperLink = styled.h2`
+export const WrapperLink = styled.a`
     font-size: 16px;
     font-weight: bold;
     margin: 8px 0;
